@@ -1,0 +1,5 @@
+[
+    {"date": "2023-04-05", "number": "PR895", "tail": "RP-C9907", "from": "TPE", "to": "MNL", "status": "COMPLETED"},
+    {"date": "2023-04-01", "number": "PR890", "tail": "", "from": "MNL", "to": "TPE", "status": "COMPLETED"},
+    {"date": "2019-10-02", "number": "PR1815", "tail": "", "from": "MNL", "to": "DVO", "status": "COMPLETED"}
+]
