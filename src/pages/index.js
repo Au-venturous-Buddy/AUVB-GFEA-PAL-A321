@@ -12,7 +12,7 @@ function compileComicStrip(data) {
   for(var i = 0; i < data.allFile.edges.length; i++) {
     var nodeItem = data.allFile.edges[i].node
     var parentFolder = nodeItem.relativeDirectory.split("/")[nodeItem.relativeDirectory.split("/").length - 1]
-    if(nodeItem.relativeDirectory.includes("images") && nodeItem.ext === ".png") {
+    if(nodeItem.relativeDirectory.includes("images") && [".png", ".PNG"].includes(nodeItem.ext)) {
       if(!(parentFolder in images)) {
         images[parentFolder] = [];
       }
